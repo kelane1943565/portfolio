@@ -1,0 +1,74 @@
+.Contact {
+    .wrapper {
+        margin-top: 1rem;
+        h1 {
+            font-size: 6rem;
+            color: #00ffd9;
+        }
+    }
+}
+
+.pageContact {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding: 40px auto;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        a,
+        p {
+            margin-left: 1rem;
+            font-size: 32px;
+        }
+        a {
+            color: #00ffd9;
+            text-decoration: underline;
+        }
+        .image {
+            min-height: 100%;
+            min-width: 100%;
+            width: 40vh;
+        }
+    }
+
+    form {
+        font-family: var(--font-primary);
+        font-size: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    textarea,
+    input {
+        border: #00ffd9 2px solid;
+        background-color: #163544;
+        color: #00ffd9;
+        max-width: 100%;
+        width: auto;
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+    textarea {
+        font-size: 24px;
+    }
+
+    .Reseaux {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+        margin-top: 10rem;
+    }
+    .boutonEnvoyer {
+        align-self: center;
+        width: 40%;
+    }
+}

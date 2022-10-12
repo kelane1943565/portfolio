@@ -1,0 +1,10 @@
+/* ==========================================================================
+   WRAPPER / ELEMENT
+   ========================================================================== */
+
+.wrapper {
+    max-width: $breakpoint-xl;
+    width: calc(100% - var(--spacing-md));
+    margin: 0 auto;
+    position: relative;
+}

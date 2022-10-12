@@ -1,0 +1,124 @@
+.projets {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: var(--font-primary);
+        position: relative;
+
+        h1,
+        h2,
+        h3,
+        p {
+            font-family: var(--font-primary);
+            font-weight: 400;
+        }
+        align-items: center;
+        .cards {
+            background-color: #163544;
+            border-radius: 30px;
+            display: flex;
+            margin: 3.5rem auto;
+            padding: 2.75rem;
+            width: 70%;
+            .logiciels {
+                justify-content: space-between;
+                width: 50%;
+                display: inline-flex;
+                img {
+                    margin-right: 0.5rem;
+                }
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                padding: 0px 1.75rem;
+                gap: 2.5rem;
+                width: 100%;
+                p {
+                    width: 70%;
+                }
+            }
+        }
+
+        .alignDroite {
+            align-items: flex-end;
+        }
+        .cardsDroite {
+            align-items: flex-end;
+            text-align: end;
+            .logiciels {
+                align-items: flex-end;
+            }
+            p {
+                text-align: right;
+            }
+        }
+        .cardsGauche {
+            align-items: flex-start;
+            .logiciels {
+                align-items: flex-start;
+            }
+        }
+        @media screen and(max-width:1600px) {
+            body {
+                p {
+                    text-align: center;
+                }
+            }
+            .cards {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                .button {
+                    margin-bottom: 1rem;
+                }
+                .cardsDroite {
+                    text-align: center;
+                    align-items: center;
+                    p {
+                        text-align: end;
+                    }
+                }
+                .cardsGauche {
+                    text-align: center;
+                    align-items: center;
+                    .unity {
+                        align-self: center;
+                        justify-self: center;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        @media screen and(max-width:900px) {
+            h2 {
+                font-size: var(--font-size-h3);
+            }
+            h3 {
+                font-size: var(--font-size-h4);
+            }
+            .cards {
+                .logiciels {
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+            .cards {
+                width: 400px;
+                img {
+                    width: 300px;
+                }
+            }
+        }
+        @media screen and(max-width:900px) {
+            .cards {
+                margin: 0;
+            }
+        }
+    }
+}

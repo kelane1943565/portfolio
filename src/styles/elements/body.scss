@@ -1,0 +1,40 @@
+/* ==========================================================================
+   BODY / ELEMENT
+   Le body permet d'initialiser les propriétés générales de la page.
+   Les éléments de la page vont hérités des propriétés inscrite dans body
+   ========================================================================== */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #0a192f;
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    .wrapperBody {
+        min-height: calc(100vh - 78px);
+    }
+
+    img {
+        height: auto;
+        object-fit: contain;
+    }
+    p {
+        font-size: 24px;
+    }
+    @media screen and(max-width:900px) {
+        p {
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}
+body.active {
+    overflow-y: hidden;
+}
+.canvas {
+    z-index: -1;
+}
+.canvasProjet {
+    height: 100%;
+}

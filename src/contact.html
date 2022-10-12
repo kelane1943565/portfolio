@@ -1,0 +1,82 @@
+{% include '_partials/_header.html' with { title: 'contact' } %}
+<div class="Contact">
+    <div class="wrapper">
+        <h1>Contactez-moi!</h1>
+        <div class="pageContact">
+            <article class="more info">
+                <div class="wrapper">
+                    <div class="colonne">
+                        <div class="info">
+                            <img src="assets/icons/mail.svg" alt="" />
+                            <p>kelane3355@outlook.com</p>
+                        </div>
+                        <div class="info">
+                            <img src="assets/icons/phone.svg" alt="" />
+                            <p>438-346-1689</p>
+                        </div>
+                        <div class="info">
+                            <img src="assets/icons/download.svg" alt="" />
+                            <a href="Curriculum Vitae.pdf" download>mon curriculum vitae</a>
+                        </div>
+
+                        <ul class="Reseaux">
+                            <li>
+                                <a
+                                    href="https://ca.linkedin.com/in/k%C3%A9lane-rondeau-boisvert-008114251?trk=people-guest_people_search-card"
+                                    ><img src="assets/icons/linkedin.svg" alt=""
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/kelane1943565"
+                                    ><img src="assets/icons/github.svg" alt=""
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/kelanerondeau/"
+                                    ><img src="assets/icons/instagram.svg" alt=""
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/kelane.rondeau.1"
+                                    ><img src="assets/icons/facebook.svg" alt=""
+                                /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="colonne">
+                        <div class="wrapper">
+                            <form action="text">
+                                <label for="Nom"
+                                    >Nom <br />
+                                    <input type="text" id="name" name="name" value="Votre nom" required /> </label
+                                ><br />
+
+                                <label for="Courriel"
+                                    >Courriel <br />
+                                    <input
+                                        type="text"
+                                        name="courriel"
+                                        id="courriel"
+                                        value="Votre courriel"
+                                        required
+                                    /> </label
+                                ><br />
+                                <label for="Message"
+                                    >Votre message <br />
+                                    <textarea name="message" id="message" cols="40" rows="8" style="resize: none">
+Écrivez votre message...</textarea
+                                    >
+                                </label>
+                                <input type="submit" value="envoyer" class="boutonEnvoyer" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="colonne">
+                        <img src="assets/images/imagemoi.jpg" alt="" class="image" />
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+<canvas class="canvas"> </canvas>

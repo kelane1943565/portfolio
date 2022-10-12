@@ -1,0 +1,30 @@
+main {
+    position: relative;
+    padding-top: 5rem;
+    height: 70vh;
+    .wrapper {
+        a {
+            align-self: flex-end;
+        }
+    }
+    .button {
+        background: none;
+        position: absolute;
+        bottom: -400px;
+        right: 50px;
+    }
+}
+canvas {
+    position: absolute;
+    min-height: calc(98vh);
+    top: -70px;
+    width: 100%;
+    height: 50%;
+}
+@media screen and(max-width:560px) {
+    main {
+        .button {
+            bottom: -300px;
+        }
+    }
+}

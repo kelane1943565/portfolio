@@ -1,0 +1,216 @@
+.aPropos {
+    margin-top: 2rem;
+    .wrapper {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+        margin-right: 3rem;
+    }
+
+    li {
+        font-family: var(--font-primary);
+        font-size: 2.5rem;
+        margin: 1rem auto;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+
+        .button {
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            color: #00ffd9;
+        }
+    }
+
+    .selection::before {
+        content: '';
+        position: absolute;
+        left: -5px;
+        right: 0;
+        bottom: 0;
+        height: 3px;
+        width: 110%;
+        transform-origin: right;
+        background-color: #00ffd9;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+    .selection:hover::before,
+    .selection:focus:before {
+        transform: scaleX(1);
+    }
+    .selection {
+        text-align: right;
+    }
+    img {
+        width: 40%;
+        align-self: center;
+        margin: auto;
+        height: 50%;
+    }
+    .absolut {
+        min-width: 40%;
+    }
+    .texte {
+        background-color: #163544;
+        padding: 2rem 2rem;
+        width: 1000px;
+        img {
+            margin: auto 0;
+        }
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 6rem;
+    }
+    .competence {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .stat {
+        padding-left: 5rem;
+        border-bottom: white 3px solid;
+        padding-bottom: 1rem;
+        white-space: nowrap;
+        width: 240px;
+        position: relative;
+    }
+    .neuf::before {
+        content: '';
+        position: absolute;
+
+        right: 0;
+        bottom: -3px;
+        height: 3px;
+        width: 90%;
+
+        background-color: #00ffd9;
+
+        transition: all 0.3s ease-in-out;
+    }
+    .huit::before {
+        content: '';
+        position: absolute;
+
+        right: 0;
+        bottom: -3px;
+        height: 3px;
+        width: 80%;
+
+        background-color: #00ffd9;
+
+        transition: all 0.3s ease-in-out;
+    }
+    .sept::before {
+        content: '';
+        position: absolute;
+
+        right: 0;
+        bottom: -3px;
+        height: 3px;
+        width: 70%;
+
+        background-color: #00ffd9;
+
+        transition: all 0.3s ease-in-out;
+    }
+    .apprentissage::before {
+        content: '';
+        position: absolute;
+
+        right: 0;
+        bottom: -3px;
+        height: 3px;
+        width: 20%;
+
+        background-color: #00ffd9;
+
+        transition: all 0.3s ease-in-out;
+    }
+
+    button {
+        background-color: none;
+    }
+    .ligne {
+        background-color: #163544;
+        border: 2px #163544 solid;
+        padding-bottom: 25rem;
+        margin-top: 1.5rem;
+    }
+    .liste {
+        display: flex;
+    }
+
+    .stat::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #00ffd9;
+        height: 3px;
+        z-index: 1;
+    }
+    .inactive {
+        display: none;
+    }
+    .presentation {
+        display: flex;
+    }
+    iframe {
+        align-self: center;
+        margin: auto;
+        justify-content: center;
+    }
+    .competences {
+        width: 800px;
+        height: 500px;
+        transition: all 0.3s ease-in-out;
+    }
+    .qualites,
+    .defauts,
+    .jaimes,
+    .histoires {
+        width: 800px;
+        height: 500px;
+        transition: all 0.3s ease-in-out;
+        img {
+            width: 25px;
+            margin-top: 0.7rem !important;
+        }
+        li {
+            display: flex;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+    }
+
+    .jaimes {
+        img {
+            margin: 0;
+            align-self: center;
+        }
+    }
+    .histoires {
+        img {
+            margin-bottom: 70px;
+            align-self: center;
+        }
+    }
+}

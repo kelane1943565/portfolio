@@ -1,0 +1,153 @@
+{% include '_partials/_header.html' with { title: 'À propos' } %}
+<section class="aPropos">
+    <div class="wrapper">
+        <div class="liste">
+            <div>
+                <div class="ligne"></div>
+            </div>
+            <ul>
+                <li class="competence selection"><button>Compétences</button></li>
+                <li class="qualite selection"><button>Qualités</button></li>
+                <li class="defaut selection"><button>Défauts</button></li>
+                <li class="jaime selection"><button>Ce que j'aime</button></li>
+                <li class="histoire selection"><button>Mon histoire</button></li>
+            </ul>
+        </div>
+        <div class="texte">
+            <div class="competences">
+                <div class="wrapper grid">
+                    <div class="competence">
+                        <img src="assets/icons/html.svg" alt="" />
+                        <p class="stat neuf">90%</p>
+                    </div>
+                    <div class="competence">
+                        <img src="assets/icons/css.svg" alt="" />
+                        <p class="stat neuf">90%</p>
+                    </div>
+                    <div class="competence">
+                        <img src="assets/icons/javascript.svg" alt="" />
+                        <p class="stat sept">70%</p>
+                    </div>
+                    <div class="competence">
+                        <img src="assets/icons/unreal.svg" alt="" />
+                        <p class="stat apprentissage">en apprentissage</p>
+                    </div>
+                    <div class="competence">
+                        <img src="assets/icons/unity.svg" alt="" />
+                        <p class="stat huit">80%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="qualites inactive">
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <p>
+                                <span class="important">Déterminé</span> , quand je fais un projet, je fais tout pour le
+                                finir même si s’en est un gros.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="important">Souriant</span>, pourquoi arriver triste? Il faut toujours voir
+                                le bon côté des choses et apporter de la positivité.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="important">J’aime apprendre</span>, j’aime découvrir des nouvelles
+                                technologies, j’apprends comment fonctionne Unreal Engine 5.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="important">Créatif</span>, j’ai toujours pleins d’idées qui permettrais
+                                d’améliorer le projet que je fais.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="defauts inactive">
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <p>
+                                <span class="important">Organisation</span>, j’ai beaucoup de mal à m’organiser du
+                                sûrement au fait que je ne me fais pas de plan.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="important">Solution: </span> me faire un calendrier des tâches à faire pour
+                                ne pas tout faire une semaine avant.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="important">Motivation</span>, j’ai encore de la misère a me motiver dans un
+                                début du projet parce que je vois qu’il y a beaucoup de choses a faire .
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="important">Solution: </span> je me dis que si je le fais pas personne va le
+                                faire et que je ne pourrai pas arriver à mes objectifs
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jaimes inactive">
+                <ul>
+                    <li>
+                        <p>
+                            <span class="important">Gaming</span>, assez étonnant pour quelqu’un qui veut devenir
+                            développeur, vous trouvez pas?
+                        </p>
+                    </li>
+                    <li>
+                        <p><span class="important">Anime</span>, j’en écoute pas beaucoup mais j’aime ça.</p>
+                    </li>
+                    <li>
+                        <p><span class="important">Sabaton</span>, meilleur groupe de musique tout simplement.</p>
+                    </li>
+                    <li>
+                        <p><span class="important">Musculation</span>,oui j’aime bien m’entraîner.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="histoires inactive">
+                <ul>
+                    <li>
+                        <p>
+                            Je joue aux jeux-vidéo depuis que je suis tout petit, j’ai commencé sur la Gamecube avec des
+                            jeux classique comme Luigi’s mansion ou encore Prince of Persia the two thrones.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Depuis que j’ai découvert ce qu’étais les jeux-vidéos, j’ai toujours voulu développer le
+                            mien, ce qui m’a emmené a faire ma technique et maintenant en plus de toujours être vouloir
+                            en développer un, j’ai découvert que j’aimais extrêmement faire des sites webs et du montage
+                            vidéo.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="presentation">
+            <iframe
+                width="400"
+                height="300"
+                src="https://www.youtube.com/embed/qdiUrCnuCjI"
+                title="Create Tooltip Using HTML And CSS Only | Display Tooltip On Hover"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </div>
+</section>
+<canvas class="canvas"> </canvas>
+{% include '_partials/_footer.html' %}
