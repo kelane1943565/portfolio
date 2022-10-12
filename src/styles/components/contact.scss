@@ -71,4 +71,15 @@
         align-self: center;
         width: 40%;
     }
+    .apresEnvoyer {
+        display: none;
+    }
+    .boutonEnvoyer:focus {
+        form {
+            display: none;
+        }
+        .apresEnvoyer {
+            display: block;
+        }
+    }
 }

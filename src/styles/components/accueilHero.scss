@@ -2,6 +2,10 @@ main {
     position: relative;
     padding-top: 5rem;
     height: 70vh;
+    h2 {
+        color: #00ffd9;
+        margin-top: 1rem;
+    }
     .wrapper {
         a {
             align-self: flex-end;
@@ -12,6 +16,14 @@ main {
         position: absolute;
         bottom: -400px;
         right: 50px;
+    }
+    @media screen and(max-width:560px) {
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+        }
     }
 }
 canvas {
@@ -24,7 +36,8 @@ canvas {
 @media screen and(max-width:560px) {
     main {
         .button {
-            bottom: -300px;
+            bottom: -200px;
+            right: 10px;
         }
     }
 }

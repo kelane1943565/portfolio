@@ -1,5 +1,9 @@
 .aPropos {
     margin-top: 2rem;
+    h1 {
+        font-size: 4rem;
+        margin: 2rem 5rem;
+    }
     .wrapper {
         display: flex;
         margin: auto;
@@ -22,10 +26,10 @@
         position: relative;
         transition: all 0.3s ease-in-out;
 
-        .button {
+        button {
             transition: all 0.3s ease-in-out;
         }
-        .button:hover {
+        button:hover {
             color: #00ffd9;
         }
     }
@@ -174,7 +178,7 @@
     }
     .competences {
         width: 800px;
-        height: 500px;
+        height: 450px;
         transition: all 0.3s ease-in-out;
     }
     .qualites,
@@ -182,7 +186,7 @@
     .jaimes,
     .histoires {
         width: 800px;
-        height: 500px;
+        height: 450px;
         transition: all 0.3s ease-in-out;
         img {
             width: 25px;
@@ -202,12 +206,14 @@
     }
 
     .jaimes {
+        height: 434px;
         img {
             margin: 0;
             align-self: center;
         }
     }
     .histoires {
+        height: 434px;
         img {
             margin-bottom: 70px;
             align-self: center;

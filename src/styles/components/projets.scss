@@ -95,6 +95,9 @@
             }
         }
         @media screen and(max-width:900px) {
+            p {
+                display: none;
+            }
             h2 {
                 font-size: var(--font-size-h3);
             }
@@ -102,22 +105,20 @@
                 font-size: var(--font-size-h4);
             }
             .cards {
+                width: 325px;
+                margin: 10px 0;
+                padding: 1rem 0;
+                .content {
+                    padding: 0;
+                }
                 .logiciels {
                     img {
                         width: 40px;
                     }
                 }
-            }
-            .cards {
-                width: 400px;
                 img {
-                    width: 300px;
+                    width: 200px;
                 }
-            }
-        }
-        @media screen and(max-width:900px) {
-            .cards {
-                margin: 0;
             }
         }
     }

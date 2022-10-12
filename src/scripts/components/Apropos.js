@@ -49,3 +49,12 @@ histoire.addEventListener('click', () => {
   jaimes.classList.add('inactive');
   histoires.classList.remove('inactive');
 });
+export default class apropos {
+  constructor(element) {
+    this.element = element;
+    this.modalId = this.element.dataset.modalId;
+
+    this.init();
+  }
+  init() {}
+}
