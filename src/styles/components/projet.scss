@@ -7,6 +7,11 @@
         align-content: center;
         width: 60%;
     }
+    .video {
+        width: 170%;
+        height: 100%;
+        position: relative;
+    }
     h1 {
         text-align: center;
         margin-bottom: 2rem;
@@ -95,4 +100,43 @@
 .important {
     font-weight: bold;
     color: #00ffd9;
+}
+@media screen and(max-width:910px) {
+    .projet {
+        h1 {
+            font-size: 4rem;
+        }
+        .video {
+            width: 175%;
+            height: 100%;
+            position: relative;
+        }
+        .videoProjet {
+            width: 100%;
+        }
+        .blocLogiciel {
+            h2 {
+                margin-bottom: 5rem;
+                font-size: 3rem;
+            }
+            img {
+                margin: auto;
+            }
+        }
+        h3 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+@media screen and(max-width:910px) {
+    .projet {
+        .blocLogiciel {
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
 }

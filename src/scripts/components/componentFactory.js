@@ -12,7 +12,6 @@ export default class ComponentFactory {
       //     Header,
       Scrolly,
       Form,
-      Video,
       Hamburger,
       Accueil,
       Apropos,
