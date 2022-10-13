@@ -1,7 +1,4 @@
-import Modal from './Modal';
-import Carousel from './Carousel';
 //import Header from './Header';
-import Cursor from './Cursor';
 import Scrolly from './Scrolly';
 import Form from './Form';
 import Video from './Video';
@@ -12,9 +9,6 @@ import Apropos from './Apropos';
 export default class ComponentFactory {
   constructor() {
     this.componentList = {
-      Modal,
-      Carousel,
-      Cursor,
       //     Header,
       Scrolly,
       Form,

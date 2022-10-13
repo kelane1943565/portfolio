@@ -69,7 +69,13 @@
     }
     .boutonEnvoyer {
         align-self: center;
-        width: 40%;
+
+        transition: all 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 #00ffd9;
+    }
+    .boutonEnvoyer:hover {
+        box-shadow: inset 0 -100px 0 0 #00ffd9;
+        color: white;
     }
     .apresEnvoyer {
         display: none;
@@ -80,6 +86,82 @@
         }
         .apresEnvoyer {
             display: block;
+        }
+    }
+}
+@media screen and(max-width:1600px) {
+    .pageContact {
+        .information {
+            display: flex;
+            justify-content: space-around;
+            .Reseaux {
+                margin: auto;
+            }
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .colonne {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            .image {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+}
+@media screen and(max-width:890px) {
+    .pageContact {
+        .information {
+            display: block;
+        }
+        .colonne {
+            .image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+@media screen and(max-width:890px) {
+    .Contact {
+        .wrapper {
+            h1 {
+                font-size: 5rem;
+            }
+        }
+    }
+}
+@media screen and(max-width:635px) {
+    .Contact {
+        .wrapper {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+@media screen and(max-width:490px) {
+    .Contact {
+        .wrapper {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+        .info {
+            img {
+                width: 35px;
+                height: 35px;
+            }
+            p {
+                font-size: 24px;
+            }
+            a {
+                font-size: 24px;
+            }
         }
     }
 }

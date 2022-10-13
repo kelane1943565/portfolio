@@ -39,49 +39,53 @@ footer {
             }
         }
     }
-    @media screen and(max-width:900px) {
-        img {
-            display: block;
-            width: auto;
-            height: auto;
-            min-width: 50px;
-        }
-        .github {
-            width: 35px;
-        }
-        .facebook {
-            height: 55px;
-        }
-        footer {
-            .wrapper {
-                width: 100%;
-            }
-
-            .footerReseaux {
-                padding-left: 0;
-            }
-        }
-    }
-    @media screen and(max-width:470px) {
-        img {
-            display: block;
-            width: auto;
-            height: auto;
-            min-width: 35px;
-        }
-        .github {
-            width: 35px;
-        }
-        .facebook {
-            height: 35px;
-        }
-        ul {
-            padding-left: 0;
-        }
+}
+@media screen and(max-width:1200px) {
+    footer {
+        bottom: -50px;
     }
 }
 @media screen and(max-width:900px) {
     footer {
         bottom: -10px;
+    }
+    img {
+        display: block;
+        width: auto;
+        height: auto;
+        min-width: 50px;
+    }
+    .github {
+        width: 35px;
+    }
+    .facebook {
+        height: 55px;
+    }
+    footer {
+        .wrapper {
+            width: 100%;
+        }
+
+        .footerReseaux {
+            padding-left: 0;
+        }
+    }
+}
+
+@media screen and(max-width:470px) {
+    img {
+        display: block;
+        width: auto;
+        height: auto;
+        min-width: 35px;
+    }
+    .github {
+        width: 35px;
+    }
+    .facebook {
+        height: 35px;
+    }
+    ul {
+        padding-left: 0;
     }
 }

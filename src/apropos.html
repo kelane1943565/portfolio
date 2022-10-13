@@ -1,21 +1,18 @@
 {% include '_partials/_header.html' with { title: 'À propos' } %}
 <section class="aPropos">
     <h1>À propos</h1>
-    <div class="wrapper">
+    <div class="wrapperApropos">
         <div class="liste">
-            <div>
-                <div class="ligne"></div>
-            </div>
-            <ul>
-                <li class="competence selection"><button class=".selected">Compétences</button></li>
+            <ul class="navApropos">
+                <li class="competence selection"><button>Compétences</button></li>
                 <li class="qualite selection"><button>Qualités</button></li>
                 <li class="defaut selection"><button>Défauts</button></li>
                 <li class="jaime selection"><button>Ce que j'aime</button></li>
                 <li class="histoire selection"><button>Mon histoire</button></li>
             </ul>
         </div>
-        <div class="texte">
-            <div class="competences">
+        <div class="texte" data-component="Scrolly">
+            <div class="competences" data-scrolly="fromBot">
                 <div class="wrapper grid">
                     <div class="competence">
                         <img src="assets/icons/html.svg" alt="" />
@@ -39,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="qualites inactive">
+            <div class="qualites inactive" data-scrolly="fromBot">
                 <div class="wrapper">
                     <ul>
                         <li>
@@ -69,7 +66,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="defauts inactive">
+            <div class="defauts inactive" data-scrolly="fromBot">
                 <div class="wrapper">
                     <ul>
                         <li>
@@ -99,7 +96,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="jaimes inactive">
+            <div class="jaimes inactive" data-scrolly="fromBot">
                 <ul>
                     <li>
                         <p>
@@ -118,7 +115,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="histoires inactive">
+            <div class="histoires inactive" data-scrolly="fromBot">
                 <ul>
                     <li>
                         <p>
