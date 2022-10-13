@@ -7,6 +7,14 @@
         align-content: center;
         width: 60%;
     }
+    .logiciels {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        img {
+            height: 90px;
+        }
+    }
     .video {
         width: 170%;
         height: 100%;
@@ -136,6 +144,27 @@
         .blocLogiciel {
             h2 {
                 font-size: 2rem;
+            }
+        }
+    }
+}
+@media screen and(max-width:550px) {
+    .projet {
+        .logiciels {
+            img {
+                height: 60px;
+            }
+        }
+    }
+}
+@media screen and(max-width:450px) {
+    .projet {
+        .logiciels {
+            img {
+                height: 40px;
+            }
+            p {
+                font-size: 1rem;
             }
         }
     }
